@@ -29,7 +29,8 @@
 							<wsdlDirectory>${basedir}/src/main/resources/wsdl</wsdlDirectory>
 							<sourceDestDir>${basedir}/target/generated-sources/main/java</sourceDestDir>
 							<wsdlUrls>
-								<wsdlUrl>http://localhost:9004/webservice/sayHello?wsdl</wsdlUrl>
+								<wsdlUrl>
+									http://localhost:9004/webservice/sayHello?wsdl</wsdlUrl>
 							</wsdlUrls>
 						</configuration>
 					</execution>
